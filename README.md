@@ -4,53 +4,53 @@
 ## DATE: 22/03/25
 ## PROGRAM:
 ```
-index.html:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Simple Image Gallery</title>
-   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-   <h2>Image Gallery</h2>
+    <h2>Image Gallery</h2>
 
-   <div class="gallery-container">
-       <button id="prevBtn">❮</button>
-       <div class="gallery">
-           <div class="image">
-               <img src="c:\Users\admin\Desktop\IMAGE 1.jpg" alt="TREES">
-               <div class="TREES">TREES</div>
-           </div>
-           <div class="image">
-               <img src="c:\Users\admin\Desktop\IMAGE 2.jpg" alt="MOON">
-               <div class="MOON">MOON</div>
-           </div>
-           <div class="image">
-               <img src="c:\Users\admin\Desktop\IMAGE 3.jpg" alt="SKY">
-               <div class="SKY">SKY</div>
-           </div>
-           <div class="image">
-               <img src="c:\Users\admin\Desktop\IMAGE 4.jpg" alt="FLOWER">
-               <div class="FLOWER">FLOWER</div>
-           </div>
-           <div class="image">
-               <img src="c:\Users\admin\Desktop\IMAGE 4.jpg" alt="SUNSET">
-               <div class="SUNSET">SUNSET</div>
-           </div>
-       </div>
-       <button id="nextBtn">❯</button>
-   </div>
+    <div class="gallery-container">
+        <button id="prevBtn">❮</button>
+        <div class="gallery">
+            <div class="image">
+                <img src="11.jpg" alt="CAR">
+                <div class="CAR">CAR</div>
+            </div>
+            <div class="image">
+                <img src="22.jpg" alt="MOON">
+                <div class="CAR">CAR</div>
+            </div>
+            <div class="image">
+                <img src="33.jpg" alt="CAR">
+                <div class="CAR">CAR</div>
+            </div>
+            <div class="image">
+                <img src="c:\Users\admin\Desktop\4.jpg" alt="FLOWER">
+                <div class="FLOWER">DARK SKY</div>
+            </div>
+            <div class="image">
+                <img src="44.jpg" alt="CAR">
+                <div class="CAR">CAR</div>
+            </div>
+        </div>
+        <button id="nextBtn">❯</button>
+    </div>
 
-   <footer>
-       Created by Dharshini K | Reg No: 212223220017
-   </footer>
+    <footer>
+        Created by K VIJAY | Reg No: 212223040236
+    </footer>
 
-   <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+
 ```
 ## style.css:
 ```
