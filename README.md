@@ -1,6 +1,6 @@
 ## INTERACTIVE IMAGE GALLERY
-# NAME:DHARSHINI K
-# REG NO: 212223220117
+# NAME:K VIJAY
+# REG NO: 212223040236
 # DATE: 22/03/25
  
  # PROGRAM:
@@ -23,36 +23,37 @@
         <button id="prevBtn">❮</button>
         <div class="gallery">
             <div class="image">
-                <img src="c:\Users\admin\Desktop\IMAGE 1.jpg" alt="TREES">
-                <div class="TREES">TREES</div>
+                <img src="11.jpg" alt="CAR">
+                <div class="CAR">CAR</div>
             </div>
             <div class="image">
-                <img src="c:\Users\admin\Desktop\IMAGE 2.jpg" alt="MOON">
-                <div class="MOON">MOON</div>
+                <img src="22.jpg" alt="MOON">
+                <div class="CAR">CAR</div>
             </div>
             <div class="image">
-                <img src="c:\Users\admin\Desktop\IMAGE 3.jpg" alt="SKY">
-                <div class="SKY">SKY</div>
+                <img src="33.jpg" alt="CAR">
+                <div class="CAR">CAR</div>
             </div>
             <div class="image">
-                <img src="c:\Users\admin\Desktop\IMAGE 4.jpg" alt="FLOWER">
-                <div class="FLOWER">FLOWER</div>
+                <img src="c:\Users\admin\Desktop\4.jpg" alt="FLOWER">
+                <div class="FLOWER">DARK SKY</div>
             </div>
             <div class="image">
-                <img src="c:\Users\admin\Desktop\IMAGE 4.jpg" alt="SUNSET">
-                <div class="SUNSET">SUNSET</div>
+                <img src="44.jpg" alt="CAR">
+                <div class="CAR">CAR</div>
             </div>
         </div>
         <button id="nextBtn">❯</button>
     </div>
 
     <footer>
-        Created by Dharshini K | Reg No: 212223220017
+        Created by K VIJAY | Reg No: 212223040236
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
 ```
 ### style.css:
 ```
@@ -162,7 +163,7 @@ prevBtn.addEventListener("click", () => {
 
 ### OUTPUT:
 
-![Screenshot 2025-03-22 134912](https://github.com/user-attachments/assets/2b65cab6-d766-4f0a-b438-65cf472bec7d)
+![Screenshot 2025-03-22 145305](https://github.com/user-attachments/assets/84053e76-6f15-4906-ba44-2b949b1926fc)
 
 
 
