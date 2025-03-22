@@ -1,6 +1,6 @@
 ## INTERACTIVE IMAGE GALLERY
-## NAME:K VIJAY
-## REG NO: 212223040236
+## NAME:K MUNI TEJESHWAR
+## REG NO: 212223040102
 ## DATE: 22/03/25
 ## PROGRAM:
 ```
@@ -20,36 +20,29 @@
         <button id="prevBtn">❮</button>
         <div class="gallery">
             <div class="image">
-                <img src="11.jpg" alt="CAR">
-                <div class="CAR">CAR</div>
+                <img src="King & Hitman ♥️✨.jpeg" alt="RO-KO">
+                <div class="caption">CAR</div>
             </div>
             <div class="image">
-                <img src="22.jpg" alt="MOON">
-                <div class="CAR">CAR</div>
+                <img src="AA1AEJaM.jpeg" alt="ROHIT">
+                <div class="caption">CAR</div>
             </div>
             <div class="image">
-                <img src="33.jpg" alt="CAR">
-                <div class="CAR">CAR</div>
-            </div>
-            <div class="image">
-                <img src="c:\Users\admin\Desktop\4.jpg" alt="FLOWER">
-                <div class="FLOWER">DARK SKY</div>
-            </div>
-            <div class="image">
-                <img src="44.jpg" alt="CAR">
-                <div class="CAR">CAR</div>
+                <img src="rohit-sharma-cricket-mumbai-indians-mi-indian-premier-3840x2160-4993.png" alt="MUMBAI INDIANS">
+                <div class="caption">DARK SKY</div>
             </div>
         </div>
         <button id="nextBtn">❯</button>
     </div>
 
     <footer>
-        Created by K VIJAY | Reg No: 212223040236
+        Created by K MUNI TEJESHWAR | Reg No: 212223040102
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
 
 ```
 ## style.css:
@@ -61,7 +54,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 .gallery-container {
     display: flex;
@@ -80,6 +72,7 @@ body {
 .image {
     position: relative;
     margin: 5px;
+    text-align: center;
 }
 
 .image img {
@@ -87,6 +80,8 @@ body {
     height: 150px;
     border-radius: 10px;
     transition: 0.3s;
+    display: block;
+    margin: auto;
 }
 
 .image:hover img {
@@ -131,6 +126,7 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
 ```
 ## script.js:
 ```
@@ -142,18 +138,19 @@ let scrollAmount = 0;
 const scrollStep = 210; // Adjusted for image width + margin
 
 nextBtn.addEventListener("click", () => {
-    if (scrollAmount < (5 - 3) * scrollStep) { // Adjusted for 5 images
+    if (scrollAmount < (3 - 1) * scrollStep) { // Adjusted for 3 images
         scrollAmount += scrollStep;
     }
-    gallery.style.transform = translateX(-${scrollAmount}px);
+    gallery.style.transform = `translateX(-${scrollAmount}px)`;
 });
 
 prevBtn.addEventListener("click", () => {
     if (scrollAmount > 0) {
         scrollAmount -= scrollStep;
     }
-    gallery.style.transform = translateX(-${scrollAmount}px);
+    gallery.style.transform = `translateX(-${scrollAmount}px)`;
 });
+
 ```
 OUTPUT:
-![Screenshot 2025-03-22 145305](https://github.com/user-attachments/assets/3adfb889-d505-45f5-b174-b76bf999b73c)
+![image](https://github.com/user-attachments/assets/92b4a052-15dc-4cf2-85bc-cf75ba7e54ce)
